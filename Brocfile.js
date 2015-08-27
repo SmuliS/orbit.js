@@ -21,12 +21,17 @@ var packages = [
     include: [/orbit-common.js/,
               /(orbit\-common\/.+.js)/],
     exclude: [/orbit-common\/local-storage-source.js/,
+              /orbit-common\/local-forage-source.js/,
               /orbit-common\/jsonapi-serializer.js/,
               /orbit-common\/jsonapi-source.js/]
   },
   {
     name: 'orbit-common-local-storage',
     include: [/orbit-common\/local-storage-source.js/]
+  },
+  {
+    name: 'orbit-common-local-forage',
+    include: [/orbit-common\/local-forage-source.js/]
   },
   {
     name: 'orbit-common-jsonapi',
