@@ -1,6 +1,6 @@
 import Orbit from 'orbit/main';
 import Schema from 'orbit_common/schema';
-import LocalForageSource from 'orbit_common/local_forage_source';
+import LocalForageSource from 'orbit-common/local-forage-source';
 import { all, Promise } from 'rsvp';
 import { verifyLocalForageContainsRecord, verifyLocalForageIsEmpty } from 'test_helper';
 
